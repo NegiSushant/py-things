@@ -21,4 +21,4 @@ def get_database():
 
 @app.get('/dbconnect')
 def red_db(db=Depends(get_database)):
-    return {"message": "Hello from red_db function!"}
+    return {"message": "Hello from red_db functions!"}
