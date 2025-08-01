@@ -4,10 +4,10 @@ app = FastAPI()
 
 class Database:
     def connect(self):
-        return "Database connected successfully!"
+        return "Database connected successfully.....!"
     
     def disconnect(self):
-        return "Database disconnected successfully!"
+        return "Database disconnected successfully....!"
     
 def get_database():
     db = Database()
@@ -21,4 +21,4 @@ def get_database():
 
 @app.get('/dbconnect')
 def red_db(db=Depends(get_database)):
-    return {"message": "Hello from red_db functions!"}
+    return {"message": "Hello from red_db functions....!"}
