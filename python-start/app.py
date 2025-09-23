@@ -63,3 +63,33 @@ print("multiply: ", multi)
 print("difference: ", diff)
 
 #Datatypes: str, int, float, bool
+# Comparision operator: ==, >=, <=, !=, 
+# logical operators: AND -> and, NOT -> not, OR -> or
+
+#----------------------Flow Control --------------------
+
+# if, else and elif statement
+age = 20
+if age >= 18:
+    print('You are allowed to vote in the election!')
+else:
+    print('You are minor!')
+
+
+#------------------Loops------------------
+for i in range(1, 11):
+    print(2 * i)
+
+for i in range(1, 20, 2):
+    print(i) #1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+
+str = "some one"
+for i in str:
+    print(i) # s o m e   o n e
+
+count = 0
+while count <5:
+    print(count)
+    count=count+1
+
+# Loop control statement: break, continue, pass
