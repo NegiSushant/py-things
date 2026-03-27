@@ -18,3 +18,33 @@ features of functions:
 * Enclosing: from outer function if nessted
 * global: Top level script
 * Built in
+
+###### args & *kwargs
+
+* args: def function("hey", "hi", "something")
+* *kwargs: def function(first="Hy", second="hello", other="something")
+
+#### Types of functions:
+
+* pure functions
+* impure fuctions
+* Recursive funtions
+* Lambdas (Anonymous function): don't have name
+
+## Buit-in functions in python:
+
+* __ doc __
+* __ name __
+* help
+
+# Python Imports, Modules, Init file
+
+* Importing Objects/function:
+  * from something.py import some
+  * import something.py
+  * from something.py import some as someOtherName
+  * from datetime import datetime
+  * from requests import something
+  * from chai_shop.utils import discount, calculat_tax
+  * 
+*
